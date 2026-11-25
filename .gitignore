@@ -1,0 +1,10 @@
+# Master keys and other local secrets must never be committed.
+secureqr_keys/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local SQLite database
+db.sqlite3
